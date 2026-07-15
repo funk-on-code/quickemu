@@ -1673,6 +1673,7 @@ EOF
                     echo "tpm=\"on\"" >> "${CONF_FILE}"
                 fi
                 echo "secureboot=\"on\"" >> "${CONF_FILE}"
+                ;;
             deepin)
                 echo "disk_size=\"64G\"" >> "${CONF_FILE}"
                 echo "ram=\"4G\"" >> "${CONF_FILE}"
